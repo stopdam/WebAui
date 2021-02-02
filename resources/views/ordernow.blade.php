@@ -23,15 +23,16 @@
             </tbody>
           </table>
           <div>
-            <form action="/action_page.php">
+            <form action="/orderplace" method="POST" >
+                @csrf
                 <div class="form-group">
-                  <textarea type="email" placeholder="enter you address" class="form-control" ></textarea>
+                  <textarea name="address" placeholder="enter you address" class="form-control" ></textarea>
                 </div>
                 <div class="form-group">
                   <label for="pwd">เลือกการชำระ</label> <br> <br>
-                  <input type="radio" name="payment"> <span>โอนผ่านธนาคาร</span> <br> <br>
-                  <input type="radio" name="payment"> <span>Paypal</span> <br> <br>
-                  <input type="radio" name="payment"> <span>เก็บเงินปลายทาง</span> <br> <br>
+                  <input type="radio" value="cash" name="payment"> <span>โอนผ่านธนาคาร</span> <br> <br>
+                  <input type="radio" value="cash" name="payment"> <span>Paypal</span> <br> <br>
+                  <input type="radio" value="cash" name="payment"> <span>เก็บเงินปลายทาง</span> <br> <br>
                 </div>
                 <button type="submit" class="btn btn-default">สั่งซื้อ</button>
               </form>
