@@ -7,7 +7,7 @@
         </div>
         <div class="col-sm-6">
         <div class="w3-container">
-        <a href="/"><input type="button" class="btn btn-warning" value="หน้าหลัก"></a>
+        <!--<a href="/"><input type="button" class="btn btn-warning" value="หน้าหลัก"></a>-->
         <h2>{{$product['name']}}</h2>
         <h3>Price : {{$product['price']}}</h3>
         <h4>Details : {{$product['description']}}</h4>
