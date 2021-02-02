@@ -30,9 +30,9 @@
                 </div>
                 <div class="form-group">
                   <label for="pwd">เลือกการชำระ</label> <br> <br>
-                  <input type="radio" value="cash" name="payment"> <span>โอนผ่านธนาคาร</span> <br> <br>
-                  <input type="radio" value="cash" name="payment"> <span>Paypal</span> <br> <br>
-                  <input type="radio" value="cash" name="payment"> <span>เก็บเงินปลายทาง</span> <br> <br>
+                  <input type="radio" value="โอนผ่านธนาคาร" name="payment"> <span>โอนผ่านธนาคาร</span> <br> <br>
+                  <input type="radio" value="Paypal" name="payment"> <span>Paypal</span> <br> <br>
+                  <input type="radio" value="เก็บเงินปลายทาง" name="payment"> <span>เก็บเงินปลายทาง</span> <br> <br>
                 </div>
                 <button type="submit" class="btn btn-default">สั่งซื้อ</button>
               </form>
